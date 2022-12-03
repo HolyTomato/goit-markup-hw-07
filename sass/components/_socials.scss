@@ -21,7 +21,7 @@
 	fill: #AFB1B8;
 	color: $primary-white-color;
 	transition-property: background-color;
-	transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	transition: transform $cubic;
 }
 
 .socials__icon {
