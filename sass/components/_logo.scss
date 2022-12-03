@@ -3,9 +3,9 @@
 	padding-bottom: 25px;
 
 	font-family: "Raleway", sans-serif;
-	color: var(--accent-color);
+	color: $accent-color;
 	font-size: 26px;
-	line-height: var(--main-line-height);
+	line-height: $main-line-height;
 
 }
 
@@ -13,7 +13,7 @@
 	font-family: "Raleway", sans-serif;
 	color: #000000;
 	font-size: 26px;
-	line-height: var(--main-line-height);
+	line-height: $main-line-height;
 }
 
 .footer__logo {
@@ -24,5 +24,5 @@
 }
 
 .footer__logo-studio {
-	color: var(--primary-white-color);
+	color: $primary-white-color;
 }

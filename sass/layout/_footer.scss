@@ -5,8 +5,8 @@
 	padding-bottom: 60px;
 
 	font-size: 14px;
-	line-height: var(--main-line-height);
-	background-color: var(--background-color);
+	line-height: $main-line-height;
+	background-color: $background-color;
 }
 
 .footer-nav {
@@ -18,9 +18,9 @@
 	display: inline-block;
 	margin-bottom: 9px;
 
-	color: var(--description-color);
+	color: $description-color;
 	line-height: 1.71;
-	font-weight: var(--main-font-weight);
+	font-weight: $main-font-weight;
 	font-style: normal;
 }
 
@@ -30,8 +30,8 @@
 	margin-bottom: 9px;
 
 	font-style: normal;
-	color: var(--primary-white-color);
-	line-height: var(--main-line-height);
+	color: $primary-white-color;
+	line-height: $main-line-height;
 	transition-property: color;
 	transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -39,7 +39,7 @@
 .address{
  &:hover,
  &:focus {
-	color: var(--accent-color);}
+	color: $accent-color;}
 
 }
 
@@ -52,7 +52,7 @@
 	line-height: 1.14;
 	letter-spacing: 0.03em;
 
-	color: var(--primary-white-color);
+	color: $primary-white-color;
 }
 
 .footer-socials {
@@ -77,7 +77,7 @@
 	background-color: rgba(255, 255, 255, 10%);
 	border-radius: 50%;
 
-	fill: var(--primary-white-color);
+	fill: $primary-white-color;
 	transition-property: background-color;
 	transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -85,7 +85,7 @@
 .footer__socials-link{
  &:hover,
  &:focus {
-	background-color: var(--accent-color);}
+	background-color: $accent-color;}
 
 }
 
@@ -100,11 +100,11 @@
 	width: 360px;
 	height: 50px;
 
-	background-color: var(--background-color);
+	background-color: $background-color;
 	border: 1px solid rgba(255, 255, 255, 0.3);
 	border-radius: 4px;
 
-	color: var(--primary-white-color);
+	color: $primary-white-color;
 }
 
 .icon-send {
@@ -114,5 +114,5 @@
 	margin-bottom: 10px;
 	margin-left: 10px;
 
-	fill: var(--primary-white-color);
+	fill: $primary-white-color;
 }
